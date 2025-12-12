@@ -1,4 +1,7 @@
-# 第3篇：ops-transformer（下）- Transformer模型的高性能算子实现
+---
+title: 第3篇：ops-transformer（下）- Transformer模型的高性能算子实现
+slug: ch02/第03篇-ops-transformer下-transformer模型的高性能算子实现
+---
 
 ## 摘要
 

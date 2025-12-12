@@ -1,4 +1,7 @@
-# 第7篇：atvoss（下）- AI Vision优化的模板化编程模型
+---
+title: 第7篇：atvoss（下）- AI Vision优化的模板化编程模型
+slug: ch02/第07篇-atvoss下-ai-vision优化的模板化编程模型
+---
 
 ## 摘要
 
