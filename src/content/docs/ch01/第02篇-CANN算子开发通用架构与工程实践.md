@@ -826,7 +826,7 @@ CANN算子开发通用架构通过以下关键技术，为开发者提供了高�
 
 - [Ascend C开发指南](https://www.hiascend.com/document/detail/zh/CANNCommunityEdition/850alpha001/opdevg/Ascendcopdevg/atlas_ascendc_10_0001.html)
 - [算子开发最佳实践](https://www.hiascend.com/developer)
-- [开源代码仓库](https://gitee.com/ascend/cann)
+- [开源代码仓库](https://gitcode.com/cann/cann)
 - [社区技术支持](https://www.hiascend.com/community)
 
 ---

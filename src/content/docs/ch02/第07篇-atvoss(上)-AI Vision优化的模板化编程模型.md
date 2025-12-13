@@ -668,7 +668,7 @@ atvoss为AI Vision计算提供了：
 
 ## 参考资源
 
-- [atvoss开源仓库](https://gitee.com/ascend/atvoss)
+- [atvoss开源仓库](https://gitcode.com/cann/atvoss)
 - [Ascend C编程指南](https://www.hiascend.com/document)
 - [模板元编程技术](https://en.wikipedia.org/wiki/Template_metaprogramming)
 - [表达式模板](https://en.wikipedia.org/wiki/Expression_templates)

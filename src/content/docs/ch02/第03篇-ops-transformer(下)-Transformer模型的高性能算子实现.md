@@ -707,7 +707,7 @@ ops-transformer的成功实践证明：
 
 ## 参考资源
 
-- [ops-transformer开源仓库](https://gitee.com/ascend/ops-transformer)
+- [ops-transformer开源仓库](https://gitcode.com/cann/ops-transformer)
 - [DeepSeek技术报告](https://github.com/deepseek-ai/DeepSeek-V2)
 - [LLaMA论文](https://arxiv.org/abs/2302.13971)
 - [MoE论文](https://arxiv.org/abs/1701.06538)

@@ -810,7 +810,7 @@ ops-math通过系统性的优化技术，实现了数学运算的极致性能：
 
 ## 参考资源
 
-- [ops-math开源仓库](https://gitee.com/ascend/ops-math)
+- [ops-math开源仓库](https://gitcode.com/cann/ops-math)
 - [IEEE 754标准文档](https://ieeexplore.ieee.org/document/4610935)
 - [数值优化指南](https://www.hiascend.com/developer)
 - [性能调优手册](https://www.hiascend.com/document)

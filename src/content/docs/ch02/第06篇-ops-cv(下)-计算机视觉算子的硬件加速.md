@@ -903,7 +903,7 @@ ops-cv为计算机视觉应用提供了：
 
 ## 参考资源
 
-- [ops-cv开源仓库](https://gitee.com/ascend/ops-cv)
+- [ops-cv开源仓库](https://gitcode.com/cann/ops-cv)
 - [Mask R-CNN论文](https://arxiv.org/abs/1703.06870)
 - [PointNet论文](https://arxiv.org/abs/1612.00593)
 - [OpenCV文档](https://opencv.org/)

@@ -613,7 +613,7 @@ ops-transformer已在千亿级 Transformer 形态（如 LLaMA/DeepSeek 等模型
 
 ## 参考资源
 
-- [ops-transformer开源仓库](https://gitee.com/ascend/ops-transformer)
+- [ops-transformer开源仓库](https://gitcode.com/cann/ops-transformer)
 - [GMM算子优化文档](https://www.hiascend.com/document)
 - [Flash Attention论文](https://arxiv.org/abs/2205.14135)
 - [MoE训练指南](https://www.hiascend.com/developer)
