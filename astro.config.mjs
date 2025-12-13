@@ -4,6 +4,7 @@ import starlight from "@astrojs/starlight";
 import starlightDocSearch from "@astrojs/starlight-docsearch";
 import sitemap from "@astrojs/sitemap";
 import { loadEnv } from "vite";
+import mermaid from 'astro-mermaid';
 
 const { DOCSEARCH_APP_ID, DOCSEARCH_API_KEY, DOCSEARCH_INDEX_NAME } = loadEnv(
   process.env.NODE_ENV || "development",
@@ -24,6 +25,10 @@ const getDocsearchPlugin = () =>
 export default defineConfig({
   site: "https://ascend.nutpi.net",
   integrations: [
+    mermaid({
+      theme: 'forest',
+      autoTheme: true
+    }),
     sitemap(),
     starlight({
       title: "Ascend CANN",
@@ -71,6 +76,7 @@ export default defineConfig({
         },
       ],
       plugins: enableDocSearch ? [getDocsearchPlugin()] : [],
-    }),
-  ],
+      
+    })
+  ]
 });
