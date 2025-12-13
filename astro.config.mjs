@@ -23,7 +23,7 @@ const getDocsearchPlugin = () =>
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ascend.nutpi.net",
+  site: "https://ascend-cann.vercel.app",
   integrations: [
     mermaid({
       theme: 'forest',
@@ -40,7 +40,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitCode",
-          href: "https://gitcode.com/nutpi/starlight",
+          href: "https://gitcode.com/nutpi/ascend-cann",
         },
       ],
       sidebar: [

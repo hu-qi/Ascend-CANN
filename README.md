@@ -1,6 +1,6 @@
 # Ascend CANN 技术专题
 
-基于 Astro Starlight 搭建的昇腾 CANN 算子库技术专栏，收录 11 篇关于架构、算子库与性能优化的文章。在线阅读：<https://ascend.nutpi.net>
+基于 Astro Starlight 搭建的昇腾 CANN 算子库技术专栏，收录 11 篇关于架构、算子库与性能优化的文章。在线阅读：<https://ascend-cann.vercel.app>
 
 ## 文档目录
 
@@ -16,8 +16,8 @@
 - [第5篇：ops-math](src/content/docs/ch02/第05篇-ops-math-数学运算的极致优化.md)：144 个数学算子的分类、精度与性能优化策略。
 - [第6篇（上）：ops-cv](src/content/docs/ch02/第06篇-ops-cv(上)-计算机视觉算子的硬件加速.md)：图像几何变换、插值与目标检测前处理算子。
 - [第6篇（下）：ops-cv](src/content/docs/ch02/第06篇-ops-cv(下)-计算机视觉算子的硬件加速.md)：NMS/IoU、实例分割、图像增强与 3D 视觉算子。
-- [第7篇（上）：atvoss](src/content/docs/ch02/第07篇-atvoss(上)-AI Vision优化的模板化编程模型.md)：模板化编程框架架构、五层设计与编程范式。
-- [第7篇（下）：atvoss](src/content/docs/ch02/第07篇-atvoss(下)-AI Vision优化的模板化编程模型.md)：高级特性、表达式模板、实践案例与调优技巧。
+- [第7篇（上）：atvoss](src/content/docs/ch02/第07篇-atvoss(上)-AI%20Vision优化的模板化编程模型.md)：模板化编程框架架构、五层设计与编程范式。
+- [第7篇（下）：atvoss](src/content/docs/ch02/第07篇-atvoss(下)-AI%20Vision优化的模板化编程模型.md)：高级特性、表达式模板、实践案例与调优技巧。
 
 ### 卷三 · 性能与工具
 - [第8篇：Tiling机制与内存管理深度解析](src/content/docs/ch03/第08篇-Tiling机制与内存管理深度解析.md)：Tiling 框架、动态策略与内存层次优化。
