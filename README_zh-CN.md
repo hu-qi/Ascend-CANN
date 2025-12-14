@@ -5,8 +5,8 @@ Ascend CANN 算子库与性能优化系列的非官方整理，使用 Astro Star
 ## 文档目录
 
 ### 卷一 · 架构与开发
-- [第1篇：昇腾CANN算子库全景概览](src/content/docs/ch01/第01篇-昇腾cann算子库全景概览.md)：分层架构、算子库组成与生态定位。
-- [第2篇：CANN算子开发通用架构与工程实践](src/content/docs/ch01/第02篇-cann算子开发通用架构与工程实践.md)：Ascend C 编程模型、流水线并行与工程化范式。
+- [第1篇：昇腾CANN算子库全景概览](src/content/docs/ch01/第01篇-昇腾CANN算子库全景概览.md)：分层架构、算子库组成与生态定位。
+- [第2篇：CANN算子开发通用架构与工程实践](src/content/docs/ch01/第02篇-CANN算子开发通用架构与工程实践.md)：Ascend C 编程模型、流水线并行与工程化范式。
 
 ### 卷二 · 算子库专题
 - [第3篇（上）：ops-transformer](src/content/docs/ch02/第03篇-ops-transformer(上)-transformer模型的高性能算子实现.md)：GMM、FIA、Dispatch/Combine 等 Transformer 关键算子。
