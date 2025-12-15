@@ -802,7 +802,7 @@ public:
 
 ## 参考资源
 
-- [ops-nn开源仓库](https://gitcode.com/cann/ops-nn)
+- [ops-nn开源仓库](https://atomgit.com/cann/ops-nn)
 - [Winograd算法论文](https://arxiv.org/abs/1509.09308)
 - [深度可分离卷积](https://arxiv.org/abs/1704.04861)
 - [性能优化指南](https://www.hiascend.com/developer)

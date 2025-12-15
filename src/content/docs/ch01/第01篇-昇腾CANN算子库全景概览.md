@@ -192,7 +192,7 @@ graph LR
 
 #### ops-transformer - 大模型加速引擎
 **定位**：CANN 提供的 Transformer 类大模型加速算子库，通过深度优化核心算子实现 NPU 上的极致性能。
-**项目地址**：[ops-transformer](https://gitcode.com/cann/ops-transformer)
+**项目地址**：[ops-transformer](https://atomgit.com/cann/ops-transformer)
 
 **核心算子列表**：
 - **Attention 类**
@@ -216,7 +216,7 @@ graph LR
 
 #### ops-nn - 神经网络基础算子库
 **定位**：CANN 提供的神经网络类基础计算算子库，实现深度学习网络在 NPU 上的加速计算。
-**项目地址**：[ops-nn](https://gitcode.com/cann/ops-nn)
+**项目地址**：[ops-nn](https://atomgit.com/cann/ops-nn)
 
 **核心算子类别**：
 - **Activation (激活函数)**：包含 ReLU、GELU、Swish、Sigmoid 等常用激活函数的向量化实现。
@@ -233,7 +233,7 @@ graph LR
 
 #### ops-math - 数学运算算子库
 **定位**：CANN 提供的数学类基础计算算子库，为上层应用提供高性能、高精度的数学计算支撑。
-**项目地址**：[ops-math](https://gitcode.com/cann/ops-math)
+**项目地址**：[ops-math](https://atomgit.com/cann/ops-math)
 
 **核心算子类别**：
 - **Elementary (初等运算)**：加减乘除、幂运算、取模、绝对值等基础数学操作。
@@ -250,7 +250,7 @@ graph LR
 
 #### ops-cv - 计算机视觉算子库
 **定位**：专为计算机视觉任务设计，提供图像处理和目标检测相关的高性能算子。
-**项目地址**：[ops-cv](https://gitcode.com/cann/ops-cv)
+**项目地址**：[ops-cv](https://atomgit.com/cann/ops-cv)
 
 **核心算子类别**：
 - **Image Processing (图像处理)**：包含 Resize、Crop、Padding、Rotate、Affine、WarpAffine 等图像几何变换与增强操作。
@@ -266,7 +266,7 @@ graph LR
 
 #### atvoss - 向量算子模板库
 **定位**：基于 Ascend C 开发的 Vector 算子模板库，致力于为昇腾硬件上的 Vector 类融合算子提供极简、高效、高性能的编程方式。
-**项目地址**：[atvoss](https://gitcode.com/cann/atvoss)
+**项目地址**：[atvoss](https://atomgit.com/cann/atvoss)
 
 **架构设计**：采用分层解耦设计，封装通用计算模式，降低开发门槛。
 - **Device 层**：负责多核任务分发与同步。
@@ -347,8 +347,8 @@ graph TB
 ```
 
 - **[Ascend C](https://www.hiascend.com/cann/ascend-c)**：CANN 针对算子开发推出的编程语言，原生支持 C/C++ 标准规范，最大化匹配用户开发习惯。通过多层接口抽象、自动并行计算、孪生调试等关键技术，极大提高算子开发效率。
-- **[CATLASS](https://gitcode.com/cann/catlass)**：CANN 提供的高性能矩阵乘及其相关融合类算子模板库，通过优质代码样例与模块化组件，加速矩阵类算子的定制开发。
-- **[Triton](https://ascend.github.io/triton-ascend/)**：针对 Python 化编程需求，CANN 提供 Triton 语言支持（[Ascend Triton](https://gitcode.com/Ascend/triton-ascend)），大幅降低算子开发门槛，实现“写 Python，跑 NPU”。
+- **[CATLASS](https://atomgit.com/cann/catlass)**：CANN 提供的高性能矩阵乘及其相关融合类算子模板库，通过优质代码样例与模块化组件，加速矩阵类算子的定制开发。
+- **[Triton](https://ascend.github.io/triton-ascend/)**：针对 Python 化编程需求，CANN 提供 Triton 语言支持（[Ascend Triton](https://atomgit.com/Ascend/triton-ascend)），大幅降低算子开发门槛，实现“写 Python，跑 NPU”。
 
 **主要开发步骤**：
 1.  **算子分析**：明确算子的功能、输入输出数据类型、Shape 及计算逻辑。
@@ -382,7 +382,7 @@ CANN 通过编译期、运行时及硬件特化三个层面的深度协同，实
 
 > **注**：性能数据受具体芯片型号（910B/待发布的950等）、算子实现版本及模型配置影响，以下数据仅供参考趋势。
 
-- **大模型核心算子**：[FlashAttention](https://gitcode.com/cann/ops-transformer) 通过 IO 感知与切分策略优化，相比传统 Attention 实现通常可获得 **数倍** 的性能提升。
+- **大模型核心算子**：[FlashAttention](https://atomgit.com/cann/ops-transformer) 通过 IO 感知与切分策略优化，相比传统 Attention 实现通常可获得 **数倍** 的性能提升。
 - **矩阵运算**：GMM/MatMul 通过优化 Tiling 与流水线，配合 W8A8/W4A4 低比特量化，可显著提升吞吐率并降低显存带宽压力。
 - **卷积/归一化**：通过 Winograd 算法及算子深度融合，显著减少中间结果读写，提升端到端计算效率。
 - **整网性能**：得益于计算图优化与算子库的持续迭代，新版本 CANN 通常能在主流模型（如 Llama3, DeepSeek 等）上带来显著的端到端性能增益。
@@ -506,14 +506,14 @@ CANN 深度适配昇腾 AI 处理器的“达芬奇”架构，实现计算资�
 
 ### 7.2 案例实践
 
-#### 案例一：[DeepSeek-V3.2-Exp支持0day推理部署](https://gitcode.com/cann/cann-recipes-infer/blob/master/models/deepseek-v3.2-exp/README.md)
+#### 案例一：[DeepSeek-V3.2-Exp支持0day推理部署](https://atomgit.com/cann/cann-recipes-infer/blob/master/models/deepseek-v3.2-exp/README.md)
 
 基于Transformers库，设计亲和部署策略，结合NPU融合Kernel与多流并行优化，提升推理吞吐。
 
 - 灵活量化支持：提供一键式脚本，支持将原始FP8权重转换为Bfloat16或Int8（W8A8C16/W8A8C8）格式 。    
 - 大规模并行推理：适配多卡推理场景，Prefill与Decode阶段均支持扩展至32-128卡并行，有效应对长序列与高并发需求 。
 
-#### 案例二：[DeepSeek-R1 RL训练优化实践](https://gitcode.com/cann/cann-recipes-train/blob/master/llm_rl/deepseek/README.md)
+#### 案例二：[DeepSeek-R1 RL训练优化实践](https://atomgit.com/cann/cann-recipes-train/blob/master/llm_rl/deepseek/README.md)
 
 针对DeepSeek-R1模型，基于verl开源框架，配合MindSpeed-LLM与VLLM-Ascend，在Atlas A3 128卡集群上实现了RL训练的深度优化 。
 
@@ -522,7 +522,7 @@ CANN 深度适配昇腾 AI 处理器的“达芬奇”架构，实现计算资�
 - 长稳训练保障：通过优化训练重计算策略（4层调整为8层），确保了加载真实权重后的训练稳定性与性能提升 。
 
 
-#### 案例三：[HunyuanVideo模型推理优化实践](https://gitcode.com/cann/cann-recipes-infer/blob/master/models/HunyuanVideo/README.md)
+#### 案例三：[HunyuanVideo模型推理优化实践](https://atomgit.com/cann/cann-recipes-infer/blob/master/models/HunyuanVideo/README.md)
 
 基于xDiT框架，结合Ulysses与RingAttention序列并行及TeaCache加速，实现高吞吐推理。
 
@@ -554,7 +554,7 @@ CANN 的生态发展制定了清晰的“三年计划”，从全面开源到支
 
 - 2027年及未来：持续迭代与多代际支持 展望 2027 年，CANN 将持续支持多代际昇腾产品的开发与创新，确保软件栈随着未来每代际产品的推出而持续迭代，保护开发者的技术投资。
 
-社区共建与人才培养 CANN 社区已托管至 [GitCode 平台](https://gitcode.com/cann/)，旨在打造更聚焦的访问体验。通过“智能基座”、CANN 训练营、昇腾 AI 创新大赛以及众智计划等活动，CANN 致力于构建“产学研用”全方位的人才培养体系，激发开发者的创新活力，共建根深叶茂的 AI 生态。
+社区共建与人才培养 CANN 社区已托管至 [GitCode 平台](https://atomgit.com/cann/)，旨在打造更聚焦的访问体验。通过“智能基座”、CANN 训练营、昇腾 AI 创新大赛以及众智计划等活动，CANN 致力于构建“产学研用”全方位的人才培养体系，激发开发者的创新活力，共建根深叶茂的 AI 生态。
 
 
 ### 未来展望
@@ -572,7 +572,7 @@ CANN 的生态发展制定了清晰的“三年计划”，从全面开源到支
 ## 参考资源
 
 - [昇腾社区](https://www.hiascend.com/)
-- [CANN开源仓库](https://gitcode.com/cann)
-- [Ascend开源仓库](https://gitcode.com/ascend)
+- [CANN开源仓库](https://atomgit.com/cann)
+- [Ascend开源仓库](https://atomgit.com/ascend)
 - [昇腾文档](https://www.hiascend.com/document)
 - [昇腾开发者](https://www.hiascend.com/developer)

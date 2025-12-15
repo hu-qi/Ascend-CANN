@@ -40,7 +40,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitCode",
-          href: "https://gitcode.com/nutpi/ascend-cann",
+          href: "https://atomgit.com/nutpi/ascend-cann",
         },
       ],
       sidebar: [

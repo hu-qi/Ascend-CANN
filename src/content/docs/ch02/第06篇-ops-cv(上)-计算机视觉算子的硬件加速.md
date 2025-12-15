@@ -831,7 +831,7 @@ private:
 
 ## 参考资源
 
-- [ops-cv开源仓库](https://gitcode.com/cann/ops-cv)
+- [ops-cv开源仓库](https://atomgit.com/cann/ops-cv)
 - [目标检测算法论文](https://arxiv.org/abs/1506.01497)
 - [空间变换网络](https://arxiv.org/abs/1506.02025)
 - [OpenCV文档](https://opencv.org/)

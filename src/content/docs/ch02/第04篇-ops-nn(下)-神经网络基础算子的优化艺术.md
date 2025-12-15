@@ -778,7 +778,7 @@ ops-nn通过系统性的优化技术，为神经网络模型提供了高效的�
 
 ## 参考资源
 
-- [ops-nn开源仓库](https://gitcode.com/cann/ops-nn)
+- [ops-nn开源仓库](https://atomgit.com/cann/ops-nn)
 - [性能优化文档](https://www.hiascend.com/document)
 - [开发者社区](https://www.hiascend.com/community)
 - [最佳实践指南](https://www.hiascend.com/developer)

@@ -757,7 +757,7 @@ struct NewOpCompute {
 
 ## 参考资源
 
-- [atvoss开源仓库](https://gitcode.com/cann/atvoss)
+- [atvoss开源仓库](https://atomgit.com/cann/atvoss)
 - [Expression Templates论文](https://www.stroustrup.com/ET.pdf)
 - [Template Metaprogramming](https://en.wikipedia.org/wiki/Template_metaprogramming)
 - [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)

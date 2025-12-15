@@ -214,7 +214,7 @@ extern "C" __global__ __aicore__ void vector_add(GM_ADDR x, GM_ADDR y, GM_ADDR z
     op.Process();
 }
 ```
-详细代码见 `src/assets/codes/ch01/VectorAdd`
+详细代码见 [`src/assets/codes/ch01/VectorAdd`](https://atomgit.com/nutpi/Ascend-CANN/blob/main/src/assets/codes/ch01/VectorAdd/VectorAdd.cpp)
 ![AscendC算子 Demo](../../../assets/images/ch01/2-1.2-vectoradd.png)
 
 
@@ -318,7 +318,7 @@ IMPL_OP_OPTILING(AddExample).Tiling(optiling::TilingFunc);
 
 ### 2.2 通用开发模式
 
-使用 [`build.sh`](https://gitcode.com/cann/ops-math/blob/master/build.sh) 脚本创建的算子工程包含以下关键目录：
+使用 [`build.sh`](https://atomgit.com/cann/ops-math/blob/master/build.sh) 脚本创建的算子工程包含以下关键目录：
 
 ```text
 ${op_name}                              
@@ -578,7 +578,7 @@ CANN 提供了统一的 `build.sh` 脚本来编译自定义算子包。
 
 - [Ascend C开发指南](https://www.hiascend.com/document/detail/zh/CANNCommunityEdition/850alpha001/opdevg/Ascendcopdevg/atlas_ascendc_10_0001.html)
 - [算子开发最佳实践](https://www.hiascend.com/developer)
-- [开源代码仓库](https://gitcode.com/cann/cann)
+- [开源代码仓库](https://atomgit.com/cann/cann)
 - [社区技术支持](https://www.hiascend.com/community)
 
 ---
